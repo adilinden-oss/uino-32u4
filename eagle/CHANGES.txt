@@ -1,6 +1,13 @@
 Changelog for *uino-32u4
 ------------------------
 
+Dec 24 2044
+v0.8
+- Added LED labels to silk screen
+- Via changed to drill 20mil and diameter 40mil
+- Replaced resistors with stock Eagle package
+- Passed BatchPCB design rules check
+
 Dec 23 2011
 v0.6
 - First version ready for prototype
