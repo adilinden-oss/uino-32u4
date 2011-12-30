@@ -2,6 +2,11 @@ Changelog for *uino-32u4
 ------------------------
 
 Dec 24 2044
+v0.8a
+- Via changed to drill 15mil and diameter 35mil
+- Passed SeeedStudio Fusion PCB design rules
+
+Dec 24 2044
 v0.8
 - Added LED labels to silk screen
 - Via changed to drill 20mil and diameter 40mil
