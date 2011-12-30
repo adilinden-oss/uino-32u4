@@ -1,0 +1,8 @@
+Changelog for *uino-32u4
+------------------------
+
+Dec 23 2011
+v0.6
+- First version ready for prototype
+- Passed Laen design rules check
+
