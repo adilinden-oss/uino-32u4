@@ -1,8 +1,8 @@
-##\*uino-32u4
+## \*uino-32u4
 
 \*uino-32u4 is an Arduino compatible platform with very minimalistic features.
 
-###Licensing
+### Licensing
 
 This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License, CC BY-SA.
 
@@ -10,34 +10,34 @@ You are free to copy, distribute and transmit the work. You must attribute the w
 
 Please refer to [http://creativecommons.org/licenses/by-sa/3.0/] for the license.
 
-###Credit
+### Credit
 
-The *uino-32u4 is derived from previous work done by:
+The \*uino-32u4 is derived from previous work done by:
 
 - The Arduino team [http://arduino.cc/]
 - The vinciDuiono team (fmalpartida - fm, Inizul, JMN, yOPERO, nayma, flico, josemanu and shaktale) [http://bitbucket.org/fmalpartida/vinciduino/wiki]
 
 Also, many thanks to fm and CrossRoads and others on the Arduino forums for invaluable advise and discussion on an Atmel ATmega32u4 based board.
 
-###Details
+### Details
 
 The board is based on the Arduino Leonardo and vinciDuino platforms. It shares the same Atmel ATmega32U4 microcontoller and utilizes the native USB feature of the ATmega32U4.
 
-However, the mapping of microcontroller pins to analog and digital shield I/O is different. The goal of *uino-32u4 is to preserve the I2C and SPI pin configuration of the Adrduino UNO and like boards. It is also very minimalistic in features as it lacks any of the acustomed Arduino external power and power switching features. The board is intended to be powered via the USB port only.
+However, the mapping of microcontroller pins to analog and digital shield I/O is different. The goal of \*uino-32u4 is to preserve the I2C and SPI pin configuration of the Adrduino UNO and like boards. It is also very minimalistic in features as it lacks any of the acustomed Arduino external power and power switching features. The board is intended to be powered via the USB port only.
 
 Two headers for jumpers have been provided to select the function of the A4/A5 analog I/O pins and an alternate pin for LED L1. The extra ATmega32U4 pin has been routed to an additional LED L2. LED L2 fills in the role of the LED_BUILTIN.
 
-The board is compatible with the Arduino Leonardo bootloader as currently in the Arduiono 1.0 relase IDE. To use this board the Leonardo has to be selected as board in the IDE. The pin mapping table shows how the Leonardo I/O labeling corresponds to *uino-32u4 I/O.
+The board is compatible with the Arduino Leonardo bootloader as currently in the Arduiono 1.0 relase IDE. To use this board the Leonardo has to be selected as board in the IDE. The pin mapping table shows how the Leonardo I/O labeling corresponds to \*uino-32u4 I/O.
 
-###Arduino IDE
+### Arduino IDE
 
-The board is supported in Arduino IDE 1.6.x via the core files available at: [https://github.com/adilinden/uino-arduino]
+The board is supported in Arduino IDE 1.6.x via the core files available at: [adilinden-oss/uino-arduino](https://github.com/adilinden-oss/uino-arduino)
 
 To install clone uino-arduino into the hardware folder inside your Sketchbook folder. The board will then automagically appear in the Boards menu.
 
-###Pin Mapping
+### Pin Mapping
 
-This table provides a reference as to how the I/O pins of the *uino-32u4 map to the ATmega32u4 pins. It also shows the pin usage of the Leonardo/ vinciDuino boards for comparison.
+This table provides a reference as to how the I/O pins of the \*uino-32u4 map to the ATmega32u4 pins. It also shows the pin usage of the Leonardo/ vinciDuino boards for comparison.
 
 ```
 *uino     Leonardo    ATmega32u4                          *uino Function
